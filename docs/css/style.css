@@ -1,0 +1,81 @@
+html, body {
+    background-color: #fff;
+    color: #252525;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+div { box-sizing: border-box; }
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+    padding-bottom: 4em;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+main > img:first-child {
+    width: 100%;
+    max-width: 500px;
+}
+
+section {
+    margin-top: 2em;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    font-size: 0.9em;
+}
+
+.apple-button {
+    padding: 6px 14px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif;
+    border-radius: 6px;
+    border: none;
+    text-decoration: none;
+
+    color: #fff !important;
+    background: linear-gradient(180deg, #4B91F7 0%, #367AF6 100%);
+    background-origin: border-box;
+    box-shadow: 0px 0.5px 1.5px rgba(54, 122, 246, 0.25), inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+  
+.apple-button:focus {
+    box-shadow: inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2), 0px 0.5px 1.5px rgba(54, 122, 246, 0.25), 0px 0px 0px 3.5px rgba(58, 108, 217, 0.5);
+    outline: 0;
+}
+
+#about > img {
+    display: block;
+    width: 70%;
+    max-width: 300px;
+    margin: 0 auto;
+    border-radius: 0.7em;
+}
+
+#experience {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 + p {
+    margin-top: 0;
+}
+
+#contact {
+    text-align: center;
+}
